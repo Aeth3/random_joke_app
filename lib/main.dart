@@ -132,8 +132,8 @@ class _JokeGeneratorPageState extends State<JokeGeneratorPage> {
             Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                const ElevatedButton(
-                    onPressed: null, child: Text('ADD TO FAVORITE')),
+                ElevatedButton(
+                    onPressed: () {}, child: const Text('ADD TO FAVORITE')),
                 const SizedBox(
                   width: 20,
                 ),
